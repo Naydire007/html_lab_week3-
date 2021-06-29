@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeClan News</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">CodeClan News</h1>
+        <nav>
+            <ul>
+               <li>
+                   <a href ="/Home">Home</a>
+               </li> 
+               <li>
+                   <a href="/Blog">Blog</a>
+               </li>
+               <li>
+                   <a href="Contact">Contact</a>
+               </li>
+
+            </ul>
+        </nav>
+    </header>
+    <body>
+        
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="row">
+                <div class="rightcolumn">
+                  <div class="card">
+                    <h2>Login</h2>
+                    <div class="img_avatar2" style="height:100px;"> <img src="https://media.edhrec.com/articles/wp-content/uploads/2020/07/drizzt-and-gu.jpg" style="max-width:10%;"alt="Drizzt Do'Urden">
+                    </div>
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <div>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        </div>
+                        <label for="psw"><b>Password</b></label>
+                        <div>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        </div>
+                        <button type="submit">Login</button>
+                        <label>
+                        </label>
+                      </div>
+                  </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+
+    </body>
+    <footer>
+        <form action="/html/tags/html_form_tag_action.cfm" method="post">
+            <div>
+            <textarea name="Comments" id="Comments"
+            style="font-family: Arial, Helvetica, sans-serif;font-size: 1.Zem;">
+            Enter your comment here!
+        </textarea>
+            </div>
+            <imput type="submit" value="Submit"></imput>
+        </form>
+        <form>
+            <label>Username:
+            </label>
+                <input name="submitted-name" autocomplete="name">
+                <a href="https://media.edhrec.com/articles/wp-content/uploads/2020/07/drizzt-and-gu.jpg">
+                    <img src="https://media.edhrec.com/articles/wp-content/uploads/2020/07/drizzt-and-gu.jpg" style="max-width:10%;"alt="Drizzt Do'Urden">
+                    </a>
+            
+            
+            <button>Save</button>
+        </form>
+
+        <p>&copy; CodeClan News 2021</p>
+    </footer>
+</body>
+</html>

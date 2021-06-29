@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+
+/* Header/Blog Title */
+.header {
+    padding: 0px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    color: black;
+  }
+    nav > ul > li > a{
+    list-style: none;
+    text-align: right;
+
+  }
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 0px;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 75%;
+    padding-left: px;
+  }
+  
+ 
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 350px;
+    height: 350px;
+    padding: 0px;
+    align-content: right;
+  }
+
+  .rightcolumn{
+      font-size: 20px;
+  }
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: px;
+    margin-top: 0px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 0px;
+    text-align: left;
+    background: #ddd;
+    margin-top: 0px;    
+    font-size: small;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 10;
+    }
+  }
+
+
+
+  nav > ul {
+    list-style: none;
+    text-align: center;
+    
+}
+nav > ul > li {
+    font-size: 30px;
+    display: inline;
+
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
