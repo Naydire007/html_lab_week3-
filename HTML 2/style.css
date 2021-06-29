@@ -44,6 +44,9 @@ body {
 
   .rightcolumn{
       font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      text-align: start;
   }
   
   
@@ -94,6 +97,13 @@ nav > ul > li > a {
     text-decoration: none;
     color: black;
 }
+
+main{
+    font-size: 20px;
+    text-align: center;
+
+}
+
 
 
 
